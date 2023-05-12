@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.max-width-1{
+width: 80vw;
+}
+.max-width-2{
+    width: 80vw;
+}
+
+.m-auto{
+    margin: auto;
+}

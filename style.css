@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 80px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    display: flex;
+    font-size: 30px;
+    margin: 10px;
+    align-items: center;
+}
+.nav-left ul li{
+list-style: none;
+margin: 20px;
+
+}
+.nav-left ul{
+display: flex;
+align-items: center;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(38, 172, 234);
+}
+.nav-left ul li a:hover{
+    color: white;
+    background-color:  rgb(38, 172, 234);
+    border-radius: 2px;
+}
+
+.nav-right{
+    margin: 0 10px;
+}
+.nav-right input{
+    width: 10vw;
+    height: 3vh;
+    border-radius: 5px;
+}
+.nav-right .btn{
+    width: 4vw;
+    height: 3vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.midd{
+    height: 40vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-image: url(/image/img4.jpg);
+    position: relative;
+    
+}
+.midd::after{
+    position: absolute;
+}
+.midd .midd-left h1{
+    color: rgb(16, 80, 136);
+}
+.midd .midd-left p{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(16, 80, 136);
+}
+.midd .midd-right img{
+height: 230px;
+border-radius: 10px;
+}
+
+.home_articles{
+    /* height: 100vh; */
+    /* background-color: rgb(48, 217, 236); */
+    padding-top: 10px;
+}
+.home_article{
+    display: flex;
+    padding: 20px;
+ 
+}
+.home_article_img img{
+    width: 250px;
+    border-radius: 10px;
+}
+.home_article_contant{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fotter{
+    height: 50px;
+    /* background-color: rgb(101, 171, 241); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fotter a{
+    text-decoration: none;
+    color: black;
+}
